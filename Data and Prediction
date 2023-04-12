@@ -1,0 +1,9 @@
+r_sq=regressor.score(x,y)
+print("coefficient of determination:",r_sq)
+intercept=regressor.intercept_
+print("Intercept",intercept[0])
+slope=regressor.coef_
+print("Slope",slope[0][0])
+pred=float(input("Enter your GPA: "))
+y_pred1=intercept[0]+(slope[0][0])*pred
+print("Your predicted CGPA is: ",y_pred1)
