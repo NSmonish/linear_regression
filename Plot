@@ -1,0 +1,7 @@
+import matplotlib.pyplot as plt
+plt.scatter(x,y,color='red')
+plt.plot(x,regressor.predict(x),color='blue')
+plt.title('GPA vs CGPA')
+plt.xlabel('GPA')
+plt.ylabel('CGPA')
+plt.show()
