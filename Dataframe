@@ -1,0 +1,4 @@
+import pandas as pd
+data={"NAME":["Monish","Krish","Jack","Roy","Haaland","Kevin","Hans","Roy","Tapan","Harish"],"GPA":[8.2,9.0,7.15,9.24,8.32,9.36,8.25,8.77,6.53,9.57],"CGPA":[7.91,8.95,7.2,9.35,8.30,9.15,8.76,8.77,6.42,9.38]}
+df=pd.DataFrame(data,index=[1,2,3,4,5,6,7,8,9,10])
+df.to_csv('linear_regression.csv')
